@@ -4,7 +4,7 @@ pipeline{
 
     stage("git checkout"){
       steps{
-        git branch: 'main', url: 'https://github.com/yogeshkr167/Devops_shell_scripts.git'
+        git branch: 'main', url: 'https://github.com/yogeshkr167/Docker-Webapp.git'
        }
     }
 
